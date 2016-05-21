@@ -38,6 +38,12 @@
 		color: #82b440;
 		text-decoration: underline;
 	}
+		/* Button in anchor tag */
+			a > h2 {
+				color: white;
+				text-decoration: none;
+				margin-bottom: 1em;
+			}
 
 	strong, b {
 		font-weight: 700;
@@ -142,13 +148,15 @@
 		-o-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: none;
+		background: white;
 		border: solid 1px #82b440;
-		color: inherit;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0.75em;
+		margin: 1em 0;
 		text-decoration: none;
+		font-weight: bold;
 		width: 100%;
 	}
 
@@ -815,4 +823,14 @@
 	.wrapper.inner {
 		position: relative;
 		top: -4em;
+	}
+
+/* Other */
+	.hidden {
+		display: none !important;
+	}
+	/* Disabled h2 form button */
+	.disabled {
+	    opacity: 0.5;
+	    cursor: default !important;
 	}

@@ -15,6 +15,7 @@
 		<script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
+		<script src="js/lodash.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/index.js"></script>
 		<noscript>
@@ -33,7 +34,7 @@
 				<div class="container">
 						
 					<!-- Logo -->
-					<h1><a href="#" id="logo">Petra in Rok</a></h1>
+					<h1><a href="index.html" id="logo">Petra in Rok</a></h1>
 					
 					<!-- Nav -->
 					<nav id="nav">
@@ -52,10 +53,32 @@
 			<!-- Banner -->
 			<div id="banner">
 				<section class="container">
-					<h2 title="... ko bo gumb začel delat.">Potrdi udeležbo</h2>
-					<span></span>
-					<p>Tukaj bo en ful hud citat.</p>
-					<p>Takoj, ko ga najdeva.</p>
+					<h2 id="confirm">Potrdi udeležbo</h2>
+
+					<div id="quote">
+						<span></span>
+						<p>Tukaj bo en ful hud citat.</p>
+						<p>Takoj, ko ga najdeva.</p>
+					</div>
+
+					<div id="form">
+						<input id="name" type="text" placeholder="Sem napišete svoje ime in priimek." />
+						<textarea id="remarks" rows="6" placeholder="Opombe - sem lahko na primer napišete, če še kdo od povabljenih pride z vami. Lahko napišete kakšen vic. Lahko nama napišete osebno sporočilo z lepimi željami. Skratka, napišite, kar vam srce poželi. Ni treba, če nočete, ampak bova pa zelo vesela."></textarea>
+						<h2 id="submit" class="disabled">Oddaj</h2>
+					</div>
+
+					<div id="success-response">
+						<p>Hvala! Komaj čakava, da se vidimo!</p>
+						<a href="sladko-zivljenje.html"><h2>Bi nama radi kaj spekli?</h2></a><br />
+						<a href="polne-baterije.html"><h2>Boste po slavju zaspani?</h2></a>
+					</div>
+
+					<div id="error-response">
+						<p>Ups! Nekaj je šlo narobe.</p>
+						<ul id="error-list"></ul>
+						<h2 id="reset">Poskusi ponovno</h2>
+					</div>
+
 				</section>
 			</div>
 		</div>
