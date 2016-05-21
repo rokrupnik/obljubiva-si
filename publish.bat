@@ -8,3 +8,4 @@ xcopy /y C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\nadaljevanje-lepe-
 xcopy /y C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\polne-baterije.html \\VS-WEB\C$\inetpub\wwwroot\RokPoroka\polne-baterije.html
 xcopy /y C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\sladko-zivljenje.html \\VS-WEB\C$\inetpub\wwwroot\RokPoroka\sladko-zivljenje.html
 xcopy /y C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\zabavna-presenecenja.html \\VS-WEB\C$\inetpub\wwwroot\RokPoroka\zabavna-presenecenja.html
+xcopy /y C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\favicon.ico \\VS-WEB\C$\inetpub\wwwroot\RokPoroka\favicon.ico
