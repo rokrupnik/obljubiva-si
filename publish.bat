@@ -1,4 +1,4 @@
-REM xcopy /y/s C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\css \\VS-WEB\C$\inetpub\wwwroot\RokPoroka\css
+xcopy /y/s C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\css \\VS-WEB\C$\inetpub\wwwroot\RokPoroka\css
 REM xcopy /y/s C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\fonts \\VS-WEB\C$\inetpub\wwwroot\RokPoroka\fonts
 REM xcopy /y/s C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\images \\VS-WEB\C$\inetpub\wwwroot\RokPoroka\images
 REM xcopy /y/s C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\js \\VS-WEB\C$\inetpub\wwwroot\RokPoroka\js
