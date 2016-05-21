@@ -1,0 +1,33 @@
+{
+  "name": "obljubiva-si",
+  "version": "0.3.0",
+  "description": "Wedding webpage with ES2015 frontend and REST API in .NET backend.",
+  "main": "index.html",
+  "dependencies": {
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokrupnik/obljubiva-si.git"
+  },
+  "keywords": [
+    "ES6",
+    "ES2015",
+    "REST",
+    ".NET"
+  ],
+  "author": "Rok Rupnik",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rokrupnik/obljubiva-si/issues"
+  },
+  "homepage": "https://obljubiva.si"
+}

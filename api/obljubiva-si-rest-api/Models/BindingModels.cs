@@ -6,17 +6,15 @@ namespace obljubiva_si_rest_api.Models
 {
     // Models used as parameters to Controller actions.
     
-    public class TestBindingModel
+    public class ApplicationBindingModel
     {
-        [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
-        [DataType(DataType.Password)]
-        [Display(Name = "New password")]
-        public string NewPassword { get; set; }
+        [Required(ErrorMessage = "Ime in Priimek sta obvezen podatek.")]
+        [StringLength(50, ErrorMessage = "{0} sta lahko dolga največ {1} znakov.")]
+        [Display(Name = "Ime in priimek")]
+        public string Name { get; set; }
 
-        [DataType(DataType.Password)]
-        [Display(Name = "Confirm new password")]
-        [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
-        public string ConfirmPassword { get; set; }
+        [StringLength(500, ErrorMessage = "{0} so lahko dolge največ {1} znakov.")]
+        [Display(Name = "Opombe")]
+        public string Remarks { get; set; }
     }
 }
