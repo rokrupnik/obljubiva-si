@@ -559,19 +559,19 @@
 		background: rgba(0, 0, 0, 0.5);
 	}
 
-		#header .container {
-			position: relative;
-		}
-
-	.homepage #logo {
-		display: none;
+	#header .container {
+		position: relative;
 	}
 
-	.homepage #nav {
+	/*.homepage #logo {
+		display: none;
+	}*/
+
+	/*.homepage #nav {
 		position: static;
 		right: none;
 		text-align: center;
-	}
+	}*/
 
 	#logo {
 		line-height: 2em;
