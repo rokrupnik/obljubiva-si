@@ -683,6 +683,7 @@
 			background: #82b440;
 			font-size: 3em;
 			font-weight: 400;
+			cursor: pointer;
 		}
 
 		#banner span, #banner p {
