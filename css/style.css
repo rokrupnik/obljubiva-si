@@ -799,9 +799,19 @@
 	}
 
 /* Heigth fixes */
+	/* homepage */
 	html, body, #skel-layers-wrapper, .homepage .wrapper.style1 {
 		height: 100%;
 	}
 	#skel-layers-inactiveWrapper {
 		height: 0px !important;
+	}
+
+	/* subpages */
+	.wrapper.style4 {
+		min-height: 100%;
+	}
+	.wrapper.inner {
+		position: relative;
+		top: -4em;
 	}
