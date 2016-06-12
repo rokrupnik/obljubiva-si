@@ -6,6 +6,7 @@
 # ES6 transpiler generated files
 js/index.js
 js/nav.js
+js/about-us.js
 
 # User-specific files
 *.suo

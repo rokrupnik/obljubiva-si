@@ -17,6 +17,6 @@ namespace obljubiva_si_rest_api.Models
         public long Id { get; set; }
         public string Name { get; set; }
         public string Remarks { get; set; }
-        public byte[] Time { get; set; }
+        public Nullable<System.DateTime> TimeApplied { get; set; }
     }
 }

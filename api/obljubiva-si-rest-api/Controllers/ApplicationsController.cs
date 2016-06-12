@@ -32,6 +32,7 @@ namespace obljubiva_si_rest_api.Controllers
                 WeddingApplication newApplication = new WeddingApplication();
                 newApplication.Name = application.Name;
                 newApplication.Remarks = application.Remarks;
+                newApplication.TimeApplied = DateTime.Now;
 
                 db.WeddingApplication.Add(newApplication);
                 db.SaveChanges();
