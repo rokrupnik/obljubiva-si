@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="48.712406"
+   height="71.443565"
+   viewBox="0 0 48.712406 71.443564"
+   sodipodi:docname="parkingMarker.svg"
+   inkscape:export-filename="C:\Razvoj\obljubiva-si\images\parkingMarker.png"
+   inkscape:export-xdpi="62.986778"
+   inkscape:export-ydpi="62.986778">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="10.136913"
+     inkscape:cx="45.627208"
+     inkscape:cy="34.797991"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:#75121c;fill-opacity:1"
+     d="M 24.354521,0 C 10.906165,0 0,10.906165 0,24.354521 0,32.230261 3.740892,39.227177 9.53574,43.680219 L 24.786062,71.443565 39.174985,43.680219 C 44.969832,39.227177 48.712408,32.230261 48.712408,24.354521 48.712408,10.906165 37.807927,0 24.354521,0 Z"
+     id="path4721-7"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="sscccss" />
+  <path
+     style="fill:#174d0f;fill-opacity:1"
+     d="m 24.354666,2.367586 c -12.297046,0 -22.269538,9.972492 -22.269538,22.269538 0,7.2015 3.4206354,13.599412 8.719388,17.671231 L 24.749263,67.69489 37.906355,42.308355 c 5.298752,-4.071819 8.720927,-10.469731 8.720927,-17.671231 0,-12.297046 -9.970952,-22.269538 -22.272616,-22.269538 z"
+     id="path4721"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="sscccss"
+     inkscape:export-xdpi="110.21426"
+     inkscape:export-ydpi="110.21426" />
+  <g
+     style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="text5367"
+     transform="matrix(1.6013737,0,0,1.6013737,44.317716,10.527768)">
+    <path
+       d="m -3.5918884,5.7339439 q 0,1.2207032 -0.4272461,2.3925782 -0.4272461,1.1596679 -1.2207031,1.9531249 -1.0864258,1.074219 -2.4291993,1.623535 -1.3305664,0.549317 -3.3203121,0.549317 l -2.917481,0 0,5.92041 -4.6875,0 0,-18.17626975 7.714844,0 q 1.7333984,0 2.9174804,0.30517578 1.196289,0.29296875 2.1118164,0.89111327 1.0986328,0.7202149 1.6723633,1.8432617 0.5859375,1.1230469 0.5859375,2.6977539 z m -4.8461914,0.1098633 q 0,-0.7690429 -0.4150391,-1.3183594 Q -9.268158,3.9639244 -9.8174744,3.7441978 -10.549896,3.4512291 -11.245697,3.426815 -11.941498,3.390194 -13.101166,3.390194 l -0.805664,0 0,5.444336 1.342774,0 q 1.196289,0 1.965332,-0.1464844 0.7812496,-0.1464844 1.306152,-0.5859375 0.4516601,-0.390625 0.6469726,-0.9277344 0.2075196,-0.5493164 0.2075196,-1.3305664 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:1"
+       id="path5372"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

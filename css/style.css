@@ -852,6 +852,17 @@
 		width: auto;
 	}
 
+	/* Google maps */
+	#gmap_canvas {
+		height:600px;
+		width:100%;
+	}
+
+	#gmap_canvas img {
+		max-width:none!important;
+		background:none!important;
+	}
+
 /* Feature (about us box) */
 
 	.feature {
