@@ -7,6 +7,7 @@
 js/index.js
 js/nav.js
 js/about-us.js
+js/info.js
 
 # User-specific files
 *.suo
