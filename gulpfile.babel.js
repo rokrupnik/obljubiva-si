@@ -11,6 +11,6 @@ gulp.task('default', () => {
     .pipe(gulp.dest('js'));
 });
 
-gulp.task('watch', () => {
+gulp.task('watch', ['default'],  () => {
     gulp.watch('js/es6/*.js', ['default']);
 });
