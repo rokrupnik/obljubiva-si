@@ -8,6 +8,8 @@ js/index.js
 js/nav.js
 js/about-us.js
 js/info.js
+js/baking.js
+js/room.js
 
 # User-specific files
 *.suo
@@ -147,7 +149,7 @@ publish/
 *.azurePubxml
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 # but database connection strings (with potential passwords) will be unencrypted
-*.pubxml
+*.pubxml.user
 *.publishproj
 
 # NuGet Packages
