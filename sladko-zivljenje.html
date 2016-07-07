@@ -19,7 +19,7 @@
 		<script src="js/lodash.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/nav.js"></script>
-		<script src="js/baking.js"></script>
+		<script src="js/baking-room.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -71,9 +71,10 @@
 					<input type="button" id="confirm" value="Prijavi se za peko peciva"></input>
 
 					<div id="form">
-						<input id="name" type="text" placeholder="Sem napišete svoje ime in priimek." />
+						<span id="type" class="hidden">baking</span>
+						<input id="name" type="text" placeholder="Sem napišete svoje ime in priimek. *" />
 						<textarea id="remarks" rows="2" placeholder="Opombe - sem napišete kaj bi nama spekli."></textarea>
-						<input id="phone" type="text" placeholder="Sem napišete svojo telefonsko številko." />
+						<input id="phone" type="text" placeholder="Sem napišete svojo telefonsko številko. *" />
 						<input type="button" id="submit" value="Oddaj" class="disabled"></input>
 					</div>
 

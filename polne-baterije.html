@@ -16,8 +16,10 @@
 		<script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
+		<script src="js/lodash.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/nav.js"></script>
+		<script src="js/baking-room.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -77,9 +79,28 @@
 							<li>2. NOČITEV Z ZAJTRKOM: 24,77e/osebo (vključena taksa, zavarovanje in prijava) </li>
 						</ul>
 
-						<p>Informacije in rezervacija je možna do 26.9.2016. <br />
-						Prijava tukaj (bo kmalu) </p>
+						<p>Informacije in rezervacija je možna do 26.9.2016.</p>
 					</header>
+
+					<input type="button" id="confirm" value="Prijavi se za prenočišče"></input>
+
+					<div id="form">
+						<span id="type" class="hidden">room</span>
+						<input id="name" type="text" placeholder="Sem napišete svoje ime in priimek. *" />
+						<textarea id="remarks" rows="2" placeholder="Opombe - sem napišete koliko vas bi prespalo."></textarea>
+						<input id="phone" type="text" placeholder="Sem napišete svojo telefonsko številko. *" />
+						<input type="button" id="submit" value="Oddaj" class="disabled"></input>
+					</div>
+
+					<div id="success-response">
+						<h1>Prijava je uspela! Razporeditev sporočiva na začetku slavja.</h1>
+					</div>
+
+					<div id="error-response">
+						<p>Ups! Nekaj je šlo narobe.</p>
+						<ul id="error-list"></ul>
+						<input type="button" id="reset" value="Poskusi ponovno"></input>
+					</div>
 				</section>
 			</div>
 		</div>

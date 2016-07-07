@@ -14,6 +14,8 @@ $(document).ready(() => {
     var remarksInput = $('#remarks');
     var phoneInput = $('#phone');
 
+    var typeSpan = $('#type');
+
     /**************** INIT *******************/
     form.hide();
     success.hide();
@@ -54,7 +56,7 @@ $(document).ready(() => {
             name: nameInput.val(),
             remarks: remarksInput.val(),
             phone: phoneInput.val(),
-            type: 'baking'
+            type: typeSpan.text()
         };
 
         $.ajax({

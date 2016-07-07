@@ -8,8 +8,7 @@ js/index.js
 js/nav.js
 js/about-us.js
 js/info.js
-js/baking.js
-js/room.js
+js/baking-room.js
 
 # User-specific files
 *.suo
