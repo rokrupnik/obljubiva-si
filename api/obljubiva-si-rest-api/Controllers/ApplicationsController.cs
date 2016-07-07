@@ -22,17 +22,19 @@ namespace obljubiva_si_rest_api.Controllers
             using (var db = new ObljubivaSiContext())
             {
                 // Insert only if this is the first application with this name
-                var oldApplications = db.WeddingApplication.Where(x => x.Name == application.Name).ToArray();
-
-                if (oldApplications.Length > 0)
-                {
-                    return BadRequest("Neustrezna prijava.");
-                }
+                // var oldApplications = db.WeddingApplication.Where(x => x.Name == application.Name && x.Type == application.Type).ToArray();
+                // 
+                // if (oldApplications.Length > 0)
+                // {
+                //     return BadRequest("Neustrezna prijava.");
+                // }
 
                 WeddingApplication newApplication = new WeddingApplication();
                 newApplication.Name = application.Name;
                 newApplication.Remarks = application.Remarks;
                 newApplication.TimeApplied = DateTime.Now;
+                newApplication.Phone = application.Phone;
+                newApplication.Type = application.Type;
 
                 db.WeddingApplication.Add(newApplication);
                 db.SaveChanges();

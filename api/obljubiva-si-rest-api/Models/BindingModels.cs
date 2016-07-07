@@ -16,5 +16,13 @@ namespace obljubiva_si_rest_api.Models
         [StringLength(500, ErrorMessage = "{0} so lahko dolge največ {1} znakov.")]
         [Display(Name = "Opombe")]
         public string Remarks { get; set; }
+
+        [StringLength(15, ErrorMessage = "{0} napišite v največ {1} znakih.")]
+        [Display(Name = "Telefon")]
+        public string Phone { get; set; }
+
+        [StringLength(15, ErrorMessage = "{0} prijave napišite v največ {1} znakih.")]
+        [Display(Name = "Tip")]
+        public string Type { get; set; }
     }
 }

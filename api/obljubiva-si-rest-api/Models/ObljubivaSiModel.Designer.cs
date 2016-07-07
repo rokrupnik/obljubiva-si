@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Rok\Dropbox\Petra\Poroka\Obljubiva.si\stran\api\obljubiva-si-rest-api\Models\ObljubivaSiModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Razvoj\obljubiva-si\api\obljubiva-si-rest-api\Models\ObljubivaSiModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

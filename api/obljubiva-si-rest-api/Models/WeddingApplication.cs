@@ -18,5 +18,7 @@ namespace obljubiva_si_rest_api.Models
         public string Name { get; set; }
         public string Remarks { get; set; }
         public Nullable<System.DateTime> TimeApplied { get; set; }
+        public string Phone { get; set; }
+        public string Type { get; set; }
     }
 }

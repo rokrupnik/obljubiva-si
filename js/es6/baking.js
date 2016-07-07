@@ -12,20 +12,29 @@ $(document).ready(() => {
     var resetBtn = $('#reset');
     var nameInput = $('#name');
     var remarksInput = $('#remarks');
+    var phoneInput = $('#phone');
 
     /**************** INIT *******************/
     form.hide();
     success.hide();
     error.hide();
 
-    nameInput.on('keyup', () => {
+    submitBtn.prop('disabled', true);
+
+    var checkRequiredFields = () => {
         var numOfWordsInName = _.words(nameInput.val()).length;
-        if (numOfWordsInName > 1 && numOfWordsInName < 6) {
+        var phoneNumber = phoneInput.val().replace(' ', '');
+        if (numOfWordsInName > 1 && numOfWordsInName < 6 && phoneNumber.length >= 9 && phoneNumber.length < 15) {
             submitBtn.removeClass('disabled');
+            submitBtn.prop('disabled', false);
         } else {
             submitBtn.addClass('disabled');
+            submitBtn.prop('disabled', true);
         }
-    })
+    };
+
+    nameInput.on('keyup', checkRequiredFields);
+    phoneInput.on('keyup', checkRequiredFields);
 
     /**************** POTRDI PRIJAVO CLICK ****************/
     confirmBtn.on('click', () => {
@@ -44,7 +53,8 @@ $(document).ready(() => {
         var application = {
             name: nameInput.val(),
             remarks: remarksInput.val(),
-            type: 'wedding'
+            phone: phoneInput.val(),
+            type: 'baking'
         };
 
         $.ajax({
