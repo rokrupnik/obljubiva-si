@@ -9,6 +9,7 @@ js/nav.js
 js/about-us.js
 js/info.js
 js/baking-room.js
+js/hruske.js
 
 # User-specific files
 *.suo
