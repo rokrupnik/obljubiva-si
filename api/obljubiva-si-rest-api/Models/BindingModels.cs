@@ -13,7 +13,7 @@ namespace obljubiva_si_rest_api.Models
         [Display(Name = "Ime in priimek")]
         public string Name { get; set; }
 
-        [StringLength(500, ErrorMessage = "{0} so lahko dolge največ {1} znakov.")]
+        [StringLength(3000, ErrorMessage = "{0} so lahko dolge največ {1} znakov.")]
         [Display(Name = "Opombe")]
         public string Remarks { get; set; }
 
